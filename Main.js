@@ -1,8 +1,13 @@
 var request = require('request');
+// Spotify token
 var token = "BQDEZWMc-3k5fJf9EHT22OXImto-THixHwUJysHmYfh9iVYapblJjo8rEcYRvbbAW9qSHl9Kze5PQ1Is8g95Xnza3W_o2Mpn3evTGxgw1sQwjN9Jacc6Tp9JF18_f54bOshUvsidNXGWpnR1G_avLX25c9P8fADscE7J9xVBc1cpLao9rluSGHPBJWbX_Wo_3HEB5btZrb6mfr8AlWxE-EZmHUFcmPAIWslw5kyY5KfSPjsGwTJHlDevuKOVErhSJ8p9mzMjNcU"
-var accountSID = "AC285755a72ceac945829ff8b00267e5d8";
-var twilioToken = "e825540285dcef954ade2d8f11f07b9f";
+// Twilio Account SID
+var accountSID = "";
+// Twilio Auth Token
+var twilioToken = "";
+// Your phone number
 var myNum = "+17786360256";
+// Number from Twilio
 var twilioNum = "+14149398783";
 
 class PlayListManager {
